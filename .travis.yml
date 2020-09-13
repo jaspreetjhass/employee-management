@@ -5,4 +5,4 @@ jdk: openjdk8
 services: 
 - docker
 script: 
-- mvn clean install
+- docker build -t employee-management .
