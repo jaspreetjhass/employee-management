@@ -1,8 +1,4 @@
-FROM openjdk:8
-
-RUN sudo apt update
-RUN sudo apt install maven
-RUN mvn -version
+FROM 3.6.3-jdk-8
 
 WORKDIR /app/employee-management
 COPY . . 
