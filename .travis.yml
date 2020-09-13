@@ -2,8 +2,6 @@ sudo: required
 # use Java 8
 language: java
 jdk: openjdk8
-services: 
-- docker
 script: 
 - docker build -t employee-management .
 - docker run employee-management
